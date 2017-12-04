@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1512066013123" stop="1512066013346" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test login with valid credentials</name>
+    <title>Test login with valid credentials</title>
+    <test-cases>
+        <test-case start="1512066013320" stop="1512066013333" status="broken">
+            <name>Given I am on the home page of facebook.com</name>
+            <title>Given I am on the home page of facebook.com</title>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at stepdefination.LoginSD.iAmOnTheHomePageOfFacebookCom(LoginSD.java:17)
+	at ✽.Given I am on the home page of facebook.com(login.feature:3)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="78683@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1512066013340" stop="1512066013340" status="pending">
+            <name>When I enter valid username</name>
+            <title>When I enter valid username</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="78683@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1512066013342" stop="1512066013342" status="pending">
+            <name>And I enter valid password</name>
+            <title>And I enter valid password</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="78683@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1512066013344" stop="1512066013344" status="pending">
+            <name>Then user should be login successfully</name>
+            <title>Then user should be login successfully</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Fatemas-MacBook-Pro.local"/>
+                <label name="thread" value="78683@Fatemas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Test login with valid credentials"/>
+        <label name="feature" value="Test Facebook smoke scenario"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
